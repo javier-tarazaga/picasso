@@ -19,7 +19,8 @@ abstract class PicassoSampleActivity extends FragmentActivity {
   private ToggleButton showHide;
   private FrameLayout sampleContent;
 
-  @Override protected void onCreate(Bundle savedInstanceState) {
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     super.setContentView(R.layout.picasso_sample_activity);
     sampleContent = (FrameLayout) findViewById(R.id.sample_content);
